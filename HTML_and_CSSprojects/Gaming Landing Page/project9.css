@@ -1,0 +1,436 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #0E0E0E;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body div.div1{
+    height: 700px;
+    width: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)),url(./futuristic-bg.png);
+}
+
+div.div1 header{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+div.div1 header nav{
+    margin-right: 300px;
+}
+div.div1 header nav a{
+    margin-right: 30px;
+    text-decoration: none;
+    color:aliceblue ;
+}
+div.div1 header div button{
+    background-color: #0E0E0E;
+    color: aliceblue;
+    margin-right: 10px;
+    cursor: pointer;
+}
+div.div1 header div button.red{
+    height: 48px;
+    width: 125px;
+    background-color: #F4694C;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+body div.div1 div.content{
+    display: flex;
+}
+body div.div1 div.content div:first-child{
+    width: 60%;
+    color: #FFFFFF;
+}
+body div.div1 div.content div:first-child h1{
+    font-size: 50px;
+    margin-left: 60px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+body div.div1 div.content div:first-child p{
+    margin-left: 60px;
+}
+body div.div1 div.content div:first-child button{
+    margin-left: 60px;
+    height: 50px;
+    width: 135px;
+    color: #FFFFFF;
+    background-color: #F4694C;
+    font-weight: bold;
+    font-size: medium;
+    margin-right: 22px;
+    cursor: pointer;
+}
+body div.div1 div.content div:first-child button.black{
+    border:1px solid #FFFFFF;
+    background-color: transparent;
+    margin-left: 0px;
+}
+body div.div1 div.imgs{
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+body div.div1 div.imgs img.play{
+    position: absolute;
+    top: 310px;
+    right: 350px;
+}
+body div.div1 div.imgs div.dash{
+    margin-bottom: 10px;
+}
+body div.div1 div.imgs div.heading{
+    position: absolute;
+    top: 525px;
+    right: 290px;
+}
+body div.div1 div.imgs div.heading h4{
+    font-size: 27px;
+    font-weight: lighter;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+body div.div1 div.imgs div .rightarrow{
+    position: absolute;
+    top: 620px;
+    right: 170px;
+}
+body div.div2{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    width: 100%;
+    align-items: center;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+body div.div2 h1{
+    color: #121212;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 120px;
+}
+body div.div2 div.scards{
+    display: flex;
+    width: 85%;
+    height: 350px;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+body div.div2 div.scards div.bgimg{
+    position: relative;
+    height: 350px;
+    width: 270px;
+    overflow: hidden;
+}
+body div.div2 div.scards div.bgimg div.one{
+    height: 350px;
+    width: 270px; 
+}
+body div.div2 div.scards div.bgimg div.one img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    object-position: 75%;
+}
+body div.div2 div.scards div.bgimg div.one img.second{
+    object-position: 50%;
+}
+body div.div2 div.scards div.bgimg div.data{
+    box-sizing: border-box;
+    display: flex;
+    height: 110px;
+    width: 100%;
+    background-color: #595F5D;
+    padding: 18px;
+    opacity: 0.9;
+    position: absolute;
+    bottom: 0px;
+}
+body div.div2 div.scards div.bgimg div.data div{
+    width: 65%;
+    line-height: 2;
+}
+body div.div2 div.scards div.bgimg div.data div p{
+    color: #9C9E9E;margin-bottom:-8px;
+}
+body div.div2 div.scards div.bgimg div.data div h6{
+    font-size: 15px;
+    font-weight: medium;
+    color: #FFFFFF;
+}
+body div.div2 div.scards div.bgimg div.data button{
+    height: 40px;
+    width: 110px;
+    color: #FFFFFF;
+    background-color: #F4694C;
+    border: none;
+    margin-left: 10px;
+    margin-top: 19px;
+    cursor: pointer;
+}
+body div.div3{
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+body div.div3 div:first-child{
+    box-sizing: border-box;
+    width: 50%;
+}body div.div3 div:first-child img{
+    margin-left: 110px;
+}
+body div.div3 div:nth-child(2) h1{
+    font-size: 45px;
+    margin-bottom: 70px;
+}
+body div.div3 div:nth-child(2) p{
+    font-weight: 540;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #9C9E9E;
+    margin-top: -40px;
+}
+body div.div3 div button.first{
+    height: 60px;
+    width: 180px;
+    font-size: medium;
+    font-weight: 500;
+    background-color: #F4694C;
+    color:#FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+body div.div3 div button{
+    height: 60px;
+    width: 180px;
+    border: 2px solid #F4694C;
+    color: #F4694C;
+    font-size: medium;
+    margin-left: 20px;
+    cursor: pointer;
+}
+body div.div4 {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+body div.div4 div:first-child{
+    width: 50%;
+
+}
+body div.div4 div:first-child h1{
+    font-size: 40px;
+    font-weight:700;
+    font-family: sans-serif;
+    margin-left: 110px;
+}
+body div.div4 div:nth-child(2){
+    display: flex;
+    justify-content: flex-end;
+}
+body div.div4 div:nth-child(2) div.squre{
+    margin-left: 460px;
+    height: 60px;
+    width: 60px;
+    border: none;
+    background-color: #FDE1DB;
+    cursor: pointer;
+}
+body div.div4 div:nth-child(2) div.squre img{
+    margin-top: 24px;
+    margin-left: 13px;
+}
+body div.div4 div:nth-child(2) div.squre2{
+    height: 60px;
+    width: 60px;
+    border: none;
+    background-color: #F4694C;
+    margin-left: 20px;
+    cursor: pointer;
+}
+body div.div4 div:nth-child(2) div.squre2 img{
+    margin-top: 24px;
+    padding-right: 12px;
+}
+body div.div5{
+    height: 740px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+body div.div5 div.recfirst{
+    display: flex;
+    margin-left: 110px;
+}
+body div.div5 div.rgt{
+    margin-left: -30px;
+}
+body div.div5 div.recfirst div:nth-child(2) h4{
+    font-size: 26px;
+    margin-top: 13px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+body div.div5 div.recfirst div:nth-child(2) span{
+    color: #F4694C;
+    margin-left: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+body div.div5 div.recfirst div:nth-child(2) p{
+    color: #9C9E9E;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+body div.div5 div.recfirst div:nth-child(2) button{
+    height: 50px;
+    font-size: medium;
+    width: 150px;
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: #F4694C;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+body div.div6{
+    height: 900px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    position: relative;
+}
+body div.div6 div.gamesofworld{
+    margin-left: 490px;
+}
+body div.div6 div.gamesofworld img{
+    background: linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0)) ;
+}
+body div.div6 h1{
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 70px;
+}
+body div.div6 p{
+    color:#626262;
+    margin-left: 300px;
+    margin-top: 105px;
+}
+body div.div6 img.power{
+    position: absolute;
+    top: 190px;
+    left: 100px;
+}
+body div.div6 img.women{
+    position: absolute;
+    top: 370px;
+}
+body div.div6 img.gunman{
+    position: absolute;
+    top: 600px;
+    right: 180px;
+}
+body div.div7{
+    height: 450px;
+    width: 100%;
+    position: relative;
+}
+body div.div7 div:first-child img{
+    height: 450px;
+    width: 100%;
+    opacity: 0.2;
+}
+body div.div7 div.data{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
+body div.div7 div.data h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+body div.div7 div.data p{
+    color: #9C9E9E;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+}
+body div.div7 div.data button{
+    width: 150px;
+    height: 50px;
+    margin-left: 135px;
+    background-color: #F4694C;
+    color: #FFFFFF;
+    font-size: medium;
+    font-weight: 700;
+    cursor: pointer;
+}
+body footer {
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    width: 100%;
+}
+body footer div{
+    display: flex;
+    flex-direction: column;
+}
+body footer div.flogo img{
+    margin-left: -20px;
+}
+body footer div.foot div.logos{
+    display: inline-block;
+}
+body footer div.foot div.logos a{
+    margin-right: 10px;
+}
+body footer div.foot div.logos a:first-child{
+    margin-left: 20px;
+}
+body footer div.foot p{
+    color:#9C9E9E;
+    margin-left: 25px;
+}
+body footer div.linkfoot h6{
+    font-size: medium;
+    color: #FFFFFF;
+    margin-bottom:25px;
+}
+body footer div.linkfoot a{
+    text-decoration: none;
+    color: #9C9E9E;
+    margin-bottom: 25px;
+}
+body hr{
+    opacity: 0.3;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}

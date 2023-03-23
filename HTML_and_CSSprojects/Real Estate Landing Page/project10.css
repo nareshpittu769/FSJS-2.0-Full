@@ -1,0 +1,398 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+body div.div1 {
+    box-sizing: border-box;
+    height: 890px;
+    width: 100%;
+    position: relative;
+    background-image: radial-gradient(rgba(1, 1, 1, 0.442),rgba(4, 4, 4, 0.442)),url(./mainBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -55px;
+}
+body div.div1 header{
+    box-sizing: border-box;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body div.div1 header img{
+    margin-left: 140px;
+}
+body div.div1 header nav{
+    margin-right: 140px;
+}
+body div.div1 header a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 65px;
+    font-size: large;
+    opacity: 0.8;
+}
+body div.div1 div.hr{
+    width: 1225px;
+    height: 1.5px;
+    background-color: #6B6C7A;
+    margin-left: 95px;
+}
+body div.div1 h1{
+    font-size: 70px;
+    color: #ffffff;
+    margin-left: 140px;
+    margin-top: 150px;
+}
+body div.div1 p{
+    font-size: 18px;
+    margin-left: 140px;
+    color: #BCBFBE;
+    margin-top: 35px;
+}
+body div.div1 button{
+    width: 190px;
+    height: 60px;
+    margin-left: 140px;
+    font-size: medium;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #6663E9;
+    border: none;
+    border-radius: 50px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+body div.div2{
+    box-sizing: border-box;
+    display: flex;
+    height: 170px;
+    width: 1330px;
+    border: none;
+    position:relative;
+    margin-left: 40px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    justify-content: space-evenly;
+    top: -95px;
+    align-items: center;
+    z-index: 1;
+}
+body div.div3{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 2000px;
+    width: 100%;
+    position: relative;
+    top: -170px;
+    background-color: #F6F8FA;
+    align-items: center;
+    margin-bottom: 0px;
+}
+body div.div3 h1{
+    color:#27292E;
+    font-size: 60px;
+    margin-top: 180px;
+    text-align: center;
+}
+body div.div3 div.cards{
+    height: 370px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+body div.div3 div.cards div.bgcrd{
+    height: 370px;
+    width:347px;
+    position: relative;
+}
+body div.div3 div.cards div.bgcrd div.cardone{
+    box-sizing: none;
+    height: 370px;
+    width:347px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+body div.div3 div.cards div.bgcrd div.cardone img{
+    object-fit: cover;
+}
+body div.div3 div.cards div.bgcrd div.data{
+    position: absolute;
+    height: 110px;
+    width: 310px;
+    margin-left: 17px;
+    bottom: -55px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+}
+body div.div3 div.cards div.bgcrd div.data div h5{
+    font-size: 25px;
+    font-weight: 550;
+    font-family: sans-serif;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+body div.div3 div.cards div.bgcrd div.data div p{
+    margin-left: 25px;
+    font-size: 22px;
+    margin-top: 15px;
+    color: #6663E8;
+    font-weight: 700;
+}
+body div.div3 div.cards div.bgcrd div.data button{
+    height: 50px;
+    width: 100px;
+    font-size: medium;
+    font-weight:550;
+    background-color: #6663E9;
+    border-radius: 50px;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 27px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+body div.div3 div.cards div.two{
+    margin-top:35px;
+}
+body div.div3 div.cards div.three{
+    margin-top:70px;
+}
+body div.div3 div.secrow2{
+    margin-top: 160px;
+}
+body div.div3 div.secrow2 div.secone{
+    margin-top: 70px;
+}
+body div.div3 div.secrow2 div.sectwo{
+    margin-top: 35px;
+}
+body div.div3 div.secrow3{
+    margin-top: 160px;
+}
+body div.div3 div.secrow3 div.trdtwo{
+    margin-top: 35px;
+}
+body div.div3 div.secrow3 div.trdthree{
+    margin-top: 70px;
+}
+body div.div4{
+    box-sizing: border-box;
+    height: 800px;
+    width: 100%;
+    margin-top: -170px;
+    display: flex;
+    background-color: #FFFFFF;
+}
+body div.div4 div.lcards{
+    width: 50%;
+    position: relative;
+    margin-top: 250px;
+}
+body div.div4 div.lcards div.lhome{
+    position: absolute;
+    top: -80px;
+    height: 500px;
+    width: 492px;
+    left: 125px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+body div.div4 div.lcards div.lhome img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 60% 0px;
+}
+body div.div4 div.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+body div.div4 div.cont h1{
+    font-size: 65px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+body div.div4 div.cont p{
+    font-size: 17px;
+    margin-left: 20px;
+    color:#6B6C7A;
+    margin-bottom: 40px;
+}
+body div.div4 div.cont button{
+    height: 60px;
+    width: 200px;
+    margin-left: 20px;
+    background-color: #6663E9;
+    border: none;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: large;
+    cursor: pointer;
+}
+body div.div5{
+    box-sizing: border-box;
+    height: 700px;
+    width: 100%;
+    display:flex ;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
+body div.div5 div.cont{
+    width: 50%;
+}
+body div.div5 div.rcards{
+    position: relative;
+    margin-top: 60px;
+}
+body div.div5 div.rcards div{
+    height: 500px;
+    width: 490px;
+    position: absolute;
+    top: -80px;
+    overflow: hidden;
+    border-radius: 50px;
+    margin-left: 55px;
+}
+body div.div5 div.rcards div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+body div.div5 div.cont h1{
+    font-size: 65px;
+    margin-top: 80px;
+    margin-left: 160px;
+    margin-bottom: 40px;
+}
+body div.div5 div.cont p{
+    font-size: 17px;
+    color: #6B6C7A;
+    margin-left: 160px;
+}
+body div.div5 div.cont button{
+    height: 60px;
+    width: 200px;
+    margin-left: 160px;
+    margin-top: 40px;
+    background-color: #6663E9;
+    border: none;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: large;
+    cursor: pointer;
+}
+body div.div6{
+    height: 600px;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+body div.div6 div.insidediv{
+    height: 500px;
+    width: 1250px;
+    margin-left: 80px;
+    margin-top: 0px;
+    border-radius: 60px;
+    background-color: #6663E9;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+
+}
+body div.div6 div.insidediv h1{
+    font-size: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 70px;
+}
+body div.div6 div.insidediv p{
+    color: #D9D8F9;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+}
+body div.div6 div.insidediv div{
+    height: 60px;
+    width: 630px;
+    display: flex;
+    margin-top: 35px;
+}
+body div.div6 div.insidediv div div.mail{
+    width: 450px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #5654D1;
+    color:#b5b5b5;
+}
+body div.div6 div.insidediv div div.mail img{
+    margin-left: 25px;
+    margin-right: 20px;
+}
+body div.div6 div.insidediv div button{
+    height: inherit;
+    width: 180px;
+    margin-left: 22px;
+    border-radius: 50px;
+    color:#6663E9;
+    font-size: large;
+    font-weight: 600;
+    border: none;
+    margin-top: 35px;
+    cursor: pointer;
+}
+body footer{
+    height: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+}
+body footer div.flogo{
+    display: flex;
+    flex-direction: column;
+}
+body footer div.flogo div.fimg{
+    margin-bottom: 20px;
+}
+body footer div.flogo div{
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+body footer div.flogo p{
+    margin-left: 30px;
+    font-size: larger;
+}
+body footer div.links{
+    display: flex;
+    flex-direction: column;
+}
+body footer div.links h5{
+    font-size: larger;
+    color:#000000;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+body footer div.links a{
+    text-decoration: none;
+    color:#6B6C7A;
+    margin-bottom: 50px;
+}
+
+

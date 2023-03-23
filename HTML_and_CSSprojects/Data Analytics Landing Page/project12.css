@@ -1,0 +1,393 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body header{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+body header nav a{
+    color: #000000;
+    text-decoration: none;
+    margin-right: 32px;
+    font-weight:550;
+    font-size: 15px;
+    font-family: sans-serif;
+    opacity: 0.8;
+}
+body header nav button{
+    height: 38px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 550;
+    border-radius: 50px;
+    color: #8246D6;
+    border: 1px solid #8246D6;
+    background-color: #ffffff;
+}
+main div.div1{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 80px;
+}
+main div.div1 div.cont{
+    width: 50%;
+    height: inherit;
+    padding-left: 130px;
+    box-sizing: border-box;
+    margin-left: 70px
+}
+main div.div1 div.cont div.learn{
+    margin-top: 10px;
+    font-size: 17px;
+    color: #8246D6;
+    border: none;
+    border-radius: 30px;
+    width: 270px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #F7F1FF;
+    padding-left: 20px;
+    margin-bottom: 35px;
+}
+main div.div1 div.cont div.learn img{
+    margin-right: 10px;
+}
+main div.div1 div.cont div.learn a{
+    color: #8246D6;
+    font-weight: 550;
+    font-size: 15px;
+}
+main div.div1 div.cont h1{
+    font-size: 50px;
+    color: #000000;
+    margin-bottom: 35px;
+}
+main div.div1 div.cont p{
+    width: 100%;
+    font-size: 18px;
+    opacity: 0.7;
+    margin-bottom: 35px;
+}
+main div.div1 div.cont div.button button:first-child{
+    height: 36px;
+    width: 140px;
+    font-size:15px;
+    background-color: #8246D6;
+    color: #ffffff;
+    border-radius: 30px;
+    border: none;
+}
+main div.div1 div.cont div.button button:nth-child(2){
+    height: 36px;
+    width: 140px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid #8246D6;
+    background-color: #ffffff;
+    border-radius: 30px;
+    color: #8246D6;
+    margin-left: 15px;
+}
+main div.div1 div.group{
+    margin-left: -90px;
+}
+div.div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 520px;
+    width: 100%;
+    margin-top: 130px;
+}
+div.div2 div.eye{
+    display: flex;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    border-radius: 20px;
+    background-color: #F7F0FF;
+    color: #8246D6;
+    font-weight: 540;
+    margin-bottom: 30px;
+}
+div.div2 div.eye img{
+    margin-right: 10px;
+}
+div.div2 h4{
+    font-size: 35px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+div.div2 p{
+    font-size:14px ;
+    font-weight: 550;
+    font-family: sans-serif;
+    opacity: 0.6;
+    color: #8F8FA7;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+div.div2 div.insidediv{
+    display: flex;
+    height: 200px;
+    width: 950px;
+    justify-content: center;
+}
+div.div2 div.insidediv div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+}
+div.div2 div.insidediv div img{
+    margin-left: 25px;
+}
+div.div2 div.insidediv div h3{
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+div.div2 div.insidediv div p{
+    text-align: center;
+}
+div.div3{
+    height: 450px;
+    width: 100%;
+    display: flex;
+}
+div.div3 div.div3img{
+    width: 50%;  
+}
+div.div3 div.div3img img{
+    float: right;
+    margin-right: 70px;
+}
+div.div3 div.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div.div3 div.cont div:first-child{
+    height: 40px;
+    width: 215px;
+    background-color: #F7F0FF;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #8246D6;
+    font-weight: bold;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+div.div3 div.cont div:first-child img{
+    margin-right: 10px;
+}
+div.div3 div.cont h4{
+    font-size: 35px;
+    margin-bottom: 29px;
+}
+div.div3 div.cont p{
+    font-size: 18px;
+    color: #8F8FA7;
+    line-height: 1.4;
+}
+div.div3 div.div4{
+    width: 70%;
+    padding-left: 270px;
+}
+div.div3 div.div4img img{
+    margin-right: 15px;
+}
+main div.div5{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+main div.div5 q{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+main div.div5 p{
+    font-size: medium;
+    font-family:sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+main div.div5 div.hr{
+    height: 3px ;
+    width: 990px;
+    background-color:#F7F0FF;
+    margin-bottom: 25px;
+}
+main div.div5 div.log{
+    display: flex;
+    width: 990;
+    margin-left: 70px;
+}
+main div.div5 div.log img{
+    margin-right: 80px;
+}
+main div.div6{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 0px;
+}
+main div.div6 div.div6one{
+    width: 50%;
+    padding-left: 270px;
+}
+main div.div6 div.div6one h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+main div.div6 div.div6one .divider {
+	width:360px;
+	text-align:center;
+    color: #8F8FA7;
+}
+
+main div.div6 div.div6one .divider hr {
+	margin-left:auto;
+	margin-right:auto;
+    margin-top: 10px;
+	width:30%;
+    color: #8F8FA7;
+}
+
+main div.div6 div.div6one .left {
+	float:left;
+}
+
+main div.div6 div.div6one .right {
+	float:right;
+}
+main div.div6 div.div6one div.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 420px;
+    height: 230px;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+main div.div6 div.form{
+    height: 450px;
+    width: 33%;
+    background-color: #F9F0FF;
+    margin-top: 40px;
+    position: relative;
+    border-radius: 5px;
+}
+main div.div6 div.form form{
+    background-color: #FCFCFC;
+    position: absolute;
+    width: 425px;
+    height: 470px;
+    margin-left: 30px;
+   top: -50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 5px;
+}
+main div.div6 div.form form h3{
+    margin-top: 25px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+main div.div6 div.form form button{
+    height: 40px;
+    width: 290px;
+    color: #ffffff;
+    background-color: #8246D6;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    cursor: pointer;
+}
+main div.div6 div.form form input{
+    width: 290px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+main div.div6 div.form form div{
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+main div.div6 div.form form div.hr{
+    height: 2px;
+    width: 300px;
+    background-color: #adadb0;
+}
+main div.div6 div.form form p{
+    color: #adadb0;
+}
+main div.div6 div.form form p a{
+    color: #8246D6;
+    margin-left: 10px;
+}
+footer{
+    display: flex;
+    height: 350px;
+    width: 100%;
+    background-color: #FBFCFF;
+    justify-content: space-around;
+}
+footer div.first{
+    height: 350px;
+    width: 250px;
+    margin-left: 210px;
+}
+footer div.first p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer div.two{
+    display: flex;
+    flex-direction: column;
+}
+footer div.first div.fev img{
+    margin-right: 10px;
+}
+footer div.two a{
+    text-decoration: none;
+    margin-top: 13px;
+    color: #000000;
+    font-size: small;
+}
+footer div.last div{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+    margin-top: 10px;
+    background-color:#FFFFFF;
+    box-shadow:10px 10px #FFFFFF;
+}
+footer div.last div input{
+    height: 40px;
+    background-color:#FFFFFF;
+    border: none;
+}

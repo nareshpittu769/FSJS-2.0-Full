@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding-left: 50px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #F0F4F5;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+header div{
+    width: 50%;
+}
+header nav a{
+    margin-right: 60px;
+    color: #000000;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+}
+nav{
+    margin-left: 50px;
+}
+nav a:first-child{
+    color: #26BE86;
+}
+main{
+    margin-top: 10px;
+    display: flex;
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+main section.sec1{
+    position: relative;
+    width: 50%;
+    height: 680px;
+}
+main section img{
+    display: block;
+}
+main section div h1{
+    font-size: 90px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+main section div p{
+    font-size: x-large;
+    color: #8E8F9F;
+}
+main section div.div1{
+    height: 80px;
+}
+main section div button{
+    display: inline-block;
+    width: 300px;
+    height: 60px;
+    font-size: x-large;
+    color: #ffffff;
+    background-color: #26BE86;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+main section div.div1 .img{
+    display: inline-block;
+}
+.buttomangle{
+    float: right;
+    margin-bottom: 20px;
+}
+main .mouse{
+    position: absolute;
+    right: -45px;
+    bottom: 155px;
+}
+main section.sec1 .seth{
+    position: absolute;
+    z-index: -1;
+    height: 660px;
+    width: 590px;
+    top: -70px;
+    left: 270px;
+    
+}
+main section.sec2 .one{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 270px;
+    z-index: 0;
+}
+main section.sec2 .two{
+    position: absolute;
+    z-index: 1;
+    margin-left: 370px;
+    margin-top: 90px;
+}
+main section.sec2 .three{
+    position: absolute;
+    z-index: 2;
+    height: 650px;
+    right: 10px;
+    top: -50px;
+    overflow: hidden;
+}

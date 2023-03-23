@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 750px;
+    width: 100%;
+    background-color: #2B2923;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main{
+    margin: 5px 150px 5px 290px;
+}
+.main header{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+.main header div{
+    width: 35%;
+}
+.main header nav{
+    width: 60%;
+    margin-right: 200px;
+}
+.main header nav.links a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.main header nav.links button{
+    height: 30px;
+    width: 100px;
+    font-size: smaller;
+    font-weight: bold;
+    background-color: #2B2923;
+    border-radius: 7px;
+    border: 1px solid #746A2F;
+    color: #746A2F;
+    cursor: pointer;
+}
+main section.sec1{
+    display: flex;
+    height: 165px;
+    align-items: center;
+    margin-top: 10px;
+}
+main section.sec1 h1{
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 10px;
+    padding: 0px;
+}
+main section.sec1 p{
+    color: #ffffff;
+    font-size: smaller;
+    margin-left: 110px;
+}
+main section.sec2 img{
+    margin-top: 15px;
+}

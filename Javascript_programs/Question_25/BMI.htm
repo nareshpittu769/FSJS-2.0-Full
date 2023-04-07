@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        let weight = parseInt(prompt("Enter your weight"));
+        let height = parseInt(prompt("Enter your height"));
+        function bmi(weight,height){
+            let bmi = (weight / Math.pow( (height/100), 2 )).toFixed(1);
+            let result;
+            switch(true){
+                case (bmi < 18.5): 
+                    document.getElementById("demo").innerText = "Underweight";
+                    break;
+                case (bmi > 18.5 && bmi < 24.9): 
+                    document.getElementById("demo").innerText = "Normal weight";
+                    break;
+                case (bmi > 25 && bmi < 29.9): 
+                    document.getElementById("demo").innerText = "Over weight";
+                    break;
+                case (bmi > 30): 
+                    document.getElementById("demo").innerText = "Obsity";
+                    break;
+                default: 
+                    document.getElementById("demo").innerText = "Incorrect Values";
+                    break;
+            }
+        }
+        bmi(weight,height);
+    </script>
+</body>
+</html>

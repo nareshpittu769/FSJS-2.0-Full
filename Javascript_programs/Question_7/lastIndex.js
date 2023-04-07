@@ -1,0 +1,2 @@
+let word = "The inueron is collaborators with pw skills and the pw skills is also now best online platform ";
+console.log("The first index is:"+word.indexOf("pw skills")+ "\n"+ "The last index is:"+word.lastIndexOf("pw skills"));

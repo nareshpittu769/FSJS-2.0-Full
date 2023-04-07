@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt</title>
+</head>
+<body>
+    <p id="demo"></p>
+     <input type="Button" value="click here" onclick="myfun()">
+    <script>
+        function myfun(){
+            let age = prompt("Enter your age:");
+            if(age==""){
+                document.getElementById("demo").innerText = 'Please enter age';
+            }
+            else if (age > 18){
+              document.getElementById("demo").innerText = 'You are old enough to drive';
+            }
+            else{
+              document.getElementById("demo").innerText = "stating to wait for the number of years he needs to turn 18";
+            }
+        }
+    </script>
+</body>
+</html>

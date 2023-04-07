@@ -1,0 +1,17 @@
+console.log(4 > 3);
+console.log(4 >= 3); 
+console.log(4 < 3);
+console.log(4 <= 3); 
+console.log(4 == 4);
+console.log(4 === 4);
+console.log(4 != 4);
+console.log(4 !== 4);
+console.log(4 != '4');
+console.log(4 == '4');
+console.log(4 === '4');
+console.log("--------------------------------");
+let a = "Python", b = "jargon", c,d;
+c = a.length;
+d = b.length;
+console.log("The Length of a is: "+c+"\n"+"The Length of b is: "+d);
+console.log(c!==d);

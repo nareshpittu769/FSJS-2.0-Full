@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping list</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey'];
+        let item = prompt("enter item with first letter caps");
+        let val = parseInt(prompt("1. Add at end of list, 2. Add at starting, 3.Remove, 4.modify"))
+        switch(true){
+            case (val == 1):
+                if (shoppingCart.includes(item)){
+                    document.getElementById("demo").innerText = "Item already exist";
+                }else{
+                    shoppingCart.push(item);
+                    document.getElementById("demo").innerText = shoppingCart.toString();
+                }
+                break; 
+            case (val == 2): 
+                shoppingCart.unshift(item);
+                document.getElementById("demo").innerText = shoppingCart.toString();
+                break;
+            case (val == 3): 
+                let x = parseInt(prompt("enter index of element index starting from 0"));
+                shoppingCart.splice(x,1);
+                document.getElementById("demo").innerText = shoppingCart.toString();
+                break;
+            case (val == 4): 
+                let y = parseInt(prompt("enter index of item to replace index starting from 0"));
+                let z = prompt("enter element");
+                shoppingCart.splice(y,1,z);
+                document.getElementById("demo").innerText = shoppingCart.toString();
+                break;
+        }
+    </script>
+</body>
+</html>

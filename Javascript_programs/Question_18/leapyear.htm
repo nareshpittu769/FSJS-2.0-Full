@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leap year</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        let a = prompt("Enter the Year")
+        let year = parseInt(a)
+        let month = parseInt(prompt("Enter the month from 1 - 12"));
+        checkLeapYear(year,month)
+        function checkLeapYear(year,month) {
+
+            //three conditions to find out the leap year
+            if ((0 == year % 4) && (0 != year % 100) || (0 == year % 400)) {
+                let days= new Date(year,month,0).getDate();
+                document.getElementById("demo").innerText = "The number of days are: "+days;
+            } else {
+                let days= new Date(year,month,0).getDate();
+                document.getElementById("demo").innerText = "The number of days are: "+days;
+            }
+        }
+    </script>
+</body>
+</html>

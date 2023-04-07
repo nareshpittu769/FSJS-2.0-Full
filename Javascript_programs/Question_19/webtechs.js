@@ -1,0 +1,1 @@
+export const webtech = [ "JavaScript", "Python", "Java", "HTML", "CSS"];

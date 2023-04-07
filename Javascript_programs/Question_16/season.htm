@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Season</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        let val = prompt("Enter Month:");
+        let val1= val.toLocaleLowerCase();
+        switch (true){
+            case (val1 == "september" || val1 == "october" || val1 == "november"):
+                document.getElementById("demo").innerText = "The season is Autumn";
+                break;
+            case (val1 == "december" || val1 == "january" || val1 == "february"):
+                document.getElementById("demo").innerText = "The season is Winter";
+                break;
+            case (val1 == "march" || val1 == "april" || val1 == "may"):
+                document.getElementById("demo").innerText = "The season is Spring";
+                break;
+            case (val1 == "june" || val1 == "july" || val1 == "august"):
+                document.getElementById("demo").innerText = "The season is Summer";
+                break;
+            default:
+                document.getElementById("demo").innerText = "Enter correct Month";
+                break;
+        }
+    </script>
+</body>
+</html>

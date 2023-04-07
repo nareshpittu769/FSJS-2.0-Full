@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRADES</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        let val = prompt("Enter your marks:");
+        let val1 = parseInt(val);
+        switch (true){
+            case (val1>=80 && val1<=100):
+                document.getElementById("demo").innerText = "Your Grade Is: A";
+                break;
+            case (val1>=70 && val1<=79):
+                document.getElementById("demo").innerText = "Your Grade Is: B";
+                break;
+            case (val1>=60 && val1<=69):
+                document.getElementById("demo").innerText = "Your Grade Is: C";
+                break;
+            case (val1>=50 && val1<=59):
+                document.getElementById("demo").innerText = "Your Grade Is: D";
+                break;
+            case (val1>=0 && val1<=49):
+                document.getElementById("demo").innerText = "Your Grade Is: E";
+                break;
+            default:
+                document.getElementById("demo").innerText = "Invalid Number";
+                break;
+        }
+    </script>
+</body>
+</html>

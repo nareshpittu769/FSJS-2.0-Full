@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simply Recipes</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" id="fevi">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-center">
+            <div class="nav-header">
+                <a href="index.html" class="nav-logo">
+                    <img src="./img/logo.svg" alt="Simply Recipes " id="logoimg" />
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link"> home </a>
+                <a href="index.html" class="nav-link"> about </a>
+                <a href="index.html" class="nav-link"> tags </a>
+                <a href="index.html" class="nav-link"> recipes </a>
+            </div>
+            <div class="blubtn">
+                <a href="index.html" class="btn"> contact </a>
+            </div>
+        </div>
+    </nav>
+    <main class="page">
+        <header class="hero">
+            <div class="hero-container">
+                <img src="./img/main.jpeg" alt="Main Image" class="headimg">
+                <div class="hero-text">
+                    <h1>Simply Recipes</h1>
+                    <h4>No Fluff, Just Recipes</h4>
+                </div>
+            </div>
+        </header>
+        <section class="recipes-container">
+            <div class="tags-container">
+                <h4 class="text-r">recipes</h4>
+                <div class="items">
+                    <a href="#"> Veg (1)</a>
+                    <a href="#"> Non-Veg (2)</a>
+                    <a href="#"> Breakfasts (3)</a>
+                    <a href="#"> Starters (4)</a>
+                    <a href="#"> Desserts (5)</a>
+                    <a href="#"> Beverages (6)</a>
+                </div>
+            </div>
+            <div class="recipe-gallery">
+                <div class="card">
+                    <a href="#" class="recipe-text">
+                        <img src="./img/recipe-1.jpeg" class="recipe-img" id="firstCard"/>
+                        <h5 class="recipe-name">Chicken</h5>
+                        <p class="recipe-disp">Prep : 15min | Cook : 30min</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#" class="recipe-text">
+                        <img src="./img/recipe-2.jpeg" class="recipe-img " id="secondCard"/>
+                        <h5 class="recipe-name">Paneer</h5>
+                        <p class="recipe-disp">Prep : 15min | Cook : 25min</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#" class="recipe-text">
+                        <img src="./img/recipe-3.jpeg" class="recipe-img " id="thirdCard"/>
+                        <h5 class="recipe-name">Tomato Soup</h5>
+                        <p class="recipe-disp">Prep : 15min | Cook : 5min</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#" class="recipe-text">
+                        <img src="./img/recipe-4.jpeg" class="recipe-img " id="forthCard" />
+                        <h5 class="recipe-name">Chocolate Cake</h5>
+                        <p class="recipe-disp">Prep : 20min | Cook : 45min</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#" class="recipe-text">
+                        <img src="./img/recipe-5.jpeg" class="recipe-img "  id="fifthCard" />
+                        <h5 class="recipe-name">Hakka Noodles</h5>
+                        <p class="recipe-disp">Prep : 15min | Cook : 30min</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <p>
+            &copy;
+            <span class="footer-logo">Simply Recipes</span> Built by
+            <a href=# id="myName">Your Name</a>
+        </p>
+    </footer>
+    <script>
+        let imglogo = document.body.querySelector(".nav-logo").querySelector("img");
+        imglogo.src="./logo (1).svg";
+        let navbar = document.body.querySelector(".navbar");
+        navbar.style.height = "150px";
+        let links = document.body.querySelector(".nav-links");
+        links.style.fontSize = "18px";
+        let btn = document.body.querySelector(".blubtn");
+        let a = document.createElement("a");
+        a.href="index.html"
+        a.textContent="Pro Subscription";
+        btn.append(a);
+        a.style.backgroundColor="blueviolet"
+        a.style.height="10px"
+        a.style.padding= "10px 20px"
+        a.style.color="white"
+        a.style.fontSize="25px";
+        a.style.borderRadius="3px";
+        let head = document.body.querySelector(".hero-container")
+        head.style.height = "350px";
+        head.style.width = "100%";
+        let headimg = document.body.querySelector(".headimg");
+        headimg.src = "./main.jpeg";
+        headimg.style.width="100%";
+        let arr = ["#firstCard","#secondCard","#thirdCard", "#forthCard", "#fifthCard"]
+        for(let i = 0 ; i<5; i++){
+            let img = document.body.querySelector(arr[i]);
+            img.src = `./recipe-${i+1}.jpeg`;
+        }
+        let resipName = document.body.getElementsByClassName("recipe-name");
+        for(let i = 0 ; i<5; i++){
+            let ele = resipName[i];
+            ele.style.color = "blueviolet";
+        }
+        let resipDisp = document.body.getElementsByClassName("recipe-disp");
+        for(let i = 0 ; i<5; i++){
+            let ele = resipDisp[i];
+            ele.style.color = "blueviolet";
+        }
+       
+        let addcard = document.body.querySelector(".recipe-gallery");
+        let div = document.createElement("div");
+        div.style.boxShadow = " rgba(0, 0, 0, 0.35) 0px 5px 15px";
+        let img = document.createElement("img");
+        img.src = "./recipe-6.jpeg";
+        img.style.height="200px";
+        img.style.width = "100%";
+        img.style.cursor = "pointer"
+        div.append(img);
+        addcard.append(div);
+        let h5 = document.createElement("h5");
+        h5.style.fontSize = "18px";
+        let p = document.createElement("p");
+        p.style.fontSize = "16px";
+        h5.innerText = "Hot red noodels";
+        p.innerText = "Prep : 15min | Cook : 30min"
+        h5.style.color = "blueviolet";
+        p.style.color = "blueviolet";
+        h5.style.cursor = "pointer";
+        p.style.cursor = "pointer"
+        div.append(h5);
+        div.append(p);
+       let name = document.getElementById("myName");
+       name.innerText = "Naresh Chandragiri";
+       let src = document.head.querySelector("#fevi")
+       src.href = "./favicon.ico";
+        let d = document.createElement("a")
+        d.href = "#";
+        d.innerText = "Chinese (7)"
+        d.style.color = "brown";
+        d.style.fontSize = "24px";
+        let items = document.body.querySelector(".items")
+        items.append(d)
+    </script>
+    
+</body>
+
+</html>
+
+

@@ -1,5 +1,5 @@
 let likcss = document.head.getElementsByTagName("link")[0];
-likcss.href = "./style (3).css";
+likcss.href = "./style7.css";
 
 let input = document.getElementsByClassName("main__form-input")[0];
 input.removeAttribute("disabled");
